@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:grocery_app/consts/theme_data.dart';
-import 'package:grocery_app/provider/dark_theme_provider.dart';
-import 'package:grocery_app/screens/bottom_bar.dart';
+import 'package:grocery_app/providers/dark_theme_provider.dart';
+import 'package:grocery_app/screens/bottom_bar_screen.dart';
 import 'package:provider/provider.dart';
 
 void main() {
