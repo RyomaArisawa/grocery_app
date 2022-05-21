@@ -36,12 +36,13 @@ class CategoriesScreen extends StatelessWidget {
           crossAxisSpacing: 10,
           mainAxisSpacing: 10,
           children: List.generate(
-              6,
-              (index) => CategoriesWidget(
-                    catText: catInfo[index]["catText"],
-                    imgPath: catInfo[index]["imgPath"],
-                    color: Colors.red,
-                  )),
+            6,
+            (index) => CategoriesWidget(
+              catText: catInfo[index]["catText"],
+              imgPath: catInfo[index]["imgPath"],
+              color: Colors.red,
+            ),
+          ),
         ),
       ),
     );
